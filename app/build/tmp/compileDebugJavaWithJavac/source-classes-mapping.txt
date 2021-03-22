@@ -1,0 +1,6 @@
+com/example/mdiaescolar/BuildConfig.java
+ com.example.mdiaescolar.BuildConfig
+com/example/mdiaescolar/MainActivity.java
+ com.example.mdiaescolar.MainActivity
+ com.example.mdiaescolar.MainActivity$1
+ com.example.mdiaescolar.MainActivity$2

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nota1"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNota1"
+        android:textAlignment="textEnd" />
+
+    <TextView
+        android:id="@+id/txtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNota1"
+        android:text="@string/nota2"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNota2"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNota2"
+        android:text="@string/btnCalcular" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalcular"
+        android:text="@string/btnSair" />
+
+    <TextView
+        android:id="@+id/txtMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSair"
+        android:text="@string/media"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtSituacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMedia"
+        android:text="@string/situacao"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Média Escolar</string>
+    <string name="nota1">Nota B1:</string>
+    <string name="nota2">Nota B2:</string>
+    <string name="media">Média: 0,0</string>
+    <string name="situacao">Situação</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnSair">Sair</string>
+</resources>
